@@ -65,6 +65,3 @@ crashlytics-build.properties
 *.classpath
 application.yml
 *.iml
-
-# something wrong
-/service-feign/
