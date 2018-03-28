@@ -1,7 +1,9 @@
 spring:
   rabbitmq:
-    host: localhost
+    host: 192.168.0.51
     port: 5672
+    username: root
+    password: jkyl123
   application:
     name: config-client
   cloud:
