@@ -5,8 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/forezp/SpringcloudConfig/
-          search-paths: respo
+        #  uri: https://github.com/forezp/SpringcloudConfig/
+        #  search-paths: respo
+          uri: https://github.com/ziyitony/JiankangYanglao/
       label: master
 
 server:

@@ -1,4 +1,7 @@
 spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
   application:
     name: config-client
   cloud:
@@ -10,9 +13,11 @@ spring:
         enabled: true
         serviceId: config-server
 server:
-  port: 8881
+  port: 8882
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8889/eureka/
-
+management:
+  security:
+    enabled: false
