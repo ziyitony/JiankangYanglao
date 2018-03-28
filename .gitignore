@@ -3,7 +3,6 @@ bin/
 ######################
 # 解决java产生文件
 ######################
-*.class
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 # Package Files #
@@ -15,7 +14,6 @@ hs_err_pid*
 # 解决maven产生的文件
 ######################
 target/
-**/target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -64,3 +62,38 @@ crashlytics-build.properties
 *.project
 *.classpath
 *.iml
+
+*#
+*.jar
+*.sw?
+*~
+.#*
+.*.md.html
+.DS_Store
+.classpath
+.factorypath
+.gradle
+.metadata
+.project
+.recommenders
+.settings
+.springBeans
+/build
+/code
+MANIFEST.MF
+_site/
+activemq-data
+bin
+build
+build.log
+dump.rdb
+interpolated*.xml
+lib/
+manifest.yml
+overridedb.*
+settings.xml
+transaction-logs
+.flattened-pom.xml
+secrets.yml
+.gradletasknamecache
+.sts4-cache
